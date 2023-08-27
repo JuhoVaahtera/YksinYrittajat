@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427256}
   - component: {fileID: 6563040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 430394}
   - component: {fileID: 3375980}
   - component: {fileID: 2365978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallDoorWay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 438704}
   - component: {fileID: 6503160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
