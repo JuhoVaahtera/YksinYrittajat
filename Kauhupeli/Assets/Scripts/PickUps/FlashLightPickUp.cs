@@ -20,7 +20,7 @@ public class FlashLightPickUp : MonoBehaviour
 
             PickUpText.SetActive(true);
 
-            if (Input.GetKeyUp(KeyCode.E)) 
+            if (Input.GetKeyDown(KeyCode.E)) 
             {
                 Destroy(this.gameObject);
 

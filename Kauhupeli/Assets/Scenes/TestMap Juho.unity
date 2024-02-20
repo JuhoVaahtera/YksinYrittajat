@@ -974,14 +974,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1553897876635426117, guid: efce486315aa4ee4980c0618cd5ba22a, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1553897877124050746, guid: efce486315aa4ee4980c0618cd5ba22a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efce486315aa4ee4980c0618cd5ba22a, type: 3}
 --- !u!4 &455406070 stripped
@@ -1474,6 +1466,18 @@ PrefabInstance:
     - target: {fileID: 2688985734233414622, guid: 0517108e1ed9e414bab8430506b47bfd, type: 3}
       propertyPath: m_Name
       value: FlashlightPickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305774676667153449, guid: 0517108e1ed9e414bab8430506b47bfd, type: 3}
+      propertyPath: m_Intensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305774676667153449, guid: 0517108e1ed9e414bab8430506b47bfd, type: 3}
+      propertyPath: m_SpotAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305774676667153449, guid: 0517108e1ed9e414bab8430506b47bfd, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0517108e1ed9e414bab8430506b47bfd, type: 3}
@@ -2365,6 +2369,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6762781427342099236, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762781427342099237, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762781427342099237, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -112.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762781427342099238, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762781427342099238, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6762781428512010766, guid: f2d06d4ed69bfd64494447d4d977e3b1, type: 3}
       propertyPath: m_Name
       value: Canvas
