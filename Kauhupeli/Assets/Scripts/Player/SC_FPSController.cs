@@ -30,6 +30,8 @@ public class SC_FPSController : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+    public GameObject hand;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -110,4 +112,13 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.transform.localPosition = Vector3.Lerp(playerCamera.transform.localPosition, cameraStandPosition, crouchTransitionSpeed * Time.deltaTime);
         }
     }
+
+    //public void OnTriggerEnter(Collider other)
+    //{
+        //if (other.gameObject.CompareTag("FlashLight"))
+        //{
+            //Destroy(other.gameObject);
+            //hand.SetActive(true);
+        //}
+    //}
 }
