@@ -4,9 +4,12 @@ public class FlashlightController : MonoBehaviour
 {
     private Light flashlight;
 
+    private AudioSource toggleSound;
+
     private void Start()
     {
         flashlight = GetComponentInChildren<Light>();
+        toggleSound = GetComponent<AudioSource>();
         flashlight.enabled = false;
     }
 
@@ -15,6 +18,7 @@ public class FlashlightController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             flashlight.enabled = !flashlight.enabled;
+            toggleSound.Play();
         }
     }
 }
