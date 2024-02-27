@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("TestMap Juho");
     }
 
     public void QuitGame()
